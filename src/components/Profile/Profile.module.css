@@ -1,0 +1,75 @@
+.profileCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 600px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 3px solid #14020a;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #14020a;
+    background-color: #292526;
+}
+
+.usrName {
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.additionalInfo {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.userStats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.userStatsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 166px;
+    height: 98%;
+    border-top: 3px solid #555253;
+    background-color: #c7c5c5;
+}
+
+.userStatsItem:nth-child(2) {
+    border-left: 3px solid #555253;
+    border-right: 3px solid #555253;
+}
+
+.itemLabel {
+    color: #14020a;
+}
+
+.quantity {
+    color: #14020a;
+    font-weight: 700;
+}
