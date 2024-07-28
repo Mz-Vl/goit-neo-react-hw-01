@@ -1,0 +1,24 @@
+.userStatsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 166px;
+    height: 98%;
+    border-top: 3px solid #555253;
+    background-color: #c7c5c5;
+}
+
+.userStatsItem:nth-child(2) {
+    border-left: 3px solid #555253;
+    border-right: 3px solid #555253;
+}
+
+.itemLabel {
+    color: #14020a;
+}
+
+.quantity {
+    color: #14020a;
+    font-weight: 700;
+}

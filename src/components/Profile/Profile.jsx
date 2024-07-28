@@ -1,18 +1,19 @@
 import clsx from 'clsx';
 import styles from './Profile.module.css';
+import StatItem from '../StatItem/StatItem';
 
-const StatItem = ({ label, value }) => {
-    const userStatsItem = clsx(styles.userStatsItem);
-    const itemLabel = clsx(styles.itemLabel);
-    const quantity = clsx(styles.quantity);
+// const StatItem = ({ label, value }) => {
+//     const userStatsItem = clsx(styles.userStatsItem);
+//     const itemLabel = clsx(styles.itemLabel);
+//     const quantity = clsx(styles.quantity);
 
-    return (
-        <li className={userStatsItem}>
-            <span className={itemLabel}>{label}</span>
-            <span className={quantity}>{value}</span>
-        </li>
-    );
-};
+//     return (
+//         <li className={userStatsItem}>
+//             <span className={itemLabel}>{label}</span>
+//             <span className={quantity}>{value}</span>
+//         </li>
+//     );
+// };
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
     const card = clsx(styles.profileCard);
