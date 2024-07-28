@@ -25,25 +25,3 @@
     padding: 0;
     padding-top: 20px;
 }
-
-.userAvatar {
-    width: 100px;
-    height: 100px;
-}
-
-.userName {
-    font-size: 28px;
-    font-weight: 500;
-    margin: 0;
-    margin-bottom: 10px;
-}
-
-.online {
-    color: green;
-    margin: 0;
-}
-
-.offline {
-    color: red;
-    margin: 0;
-}
