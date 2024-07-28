@@ -1,17 +1,6 @@
 import clsx from 'clsx';
 import styles from './TransactionHistory.module.css';
-
-const TransactionItem = ({ type, amount, currency }) => {
-    const tableCell = clsx(styles.tableCell);
-    
-    return (
-        <tr>
-            <td className={tableCell}>{type}</td>
-            <td className={tableCell}>{amount}</td>
-            <td className={tableCell}>{currency}</td>
-        </tr>
-    );
-};
+import TransactionItem from '../TransactionItem/TransactionItem';
 
 const TransactionHistory = ({ items }) => {
     const tableHead = clsx(styles.tableHead);
